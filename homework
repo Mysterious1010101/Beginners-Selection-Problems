@@ -1,0 +1,37 @@
+height = int(input("what\'s your height?"))
+if height >= 120:
+    print("You can ride the rollercoaster!")
+else:
+    print("Sorry, You can\'t ride the rollercoaster")
+
+
+
+
+
+
+
+print("You are exploring a rainforest in search of treasure.")
+print("Legend has it that there are some buried on a nearby island.")
+print("You come across a lake. ")
+print("Do you want to swim across, or wait for a boat? (swim/wait):")
+ans = str(input(">>"))
+if input == "swim":
+    print("You get eaten by a hungry shark. Game over.")
+else:
+    print("A boat arrives and you arrive at the island safely.")
+print("You come to a cave.")
+print("Do you want to venture inside or walk on? (venture/walk):")
+ans == str(input(">>"))
+if input == "venture":
+    print("You are squished by boulders never to be seen again. Game over.")
+else:
+    print("Someone comes and asks you what your favourite colour is, what do you asnwer? (red/any other colour)")
+ans = str(input(">>"))
+if ans == "red":
+    print("congrats, that is undoubtedly the best colour, you win!")
+elif ans == "any other colour":
+    print("you died, as red is the best")
+else:
+    print("dude, you were supposed to write red. ;-;")
+
+
